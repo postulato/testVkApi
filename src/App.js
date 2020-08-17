@@ -17,7 +17,7 @@ function App() {
             component={Info}
           /> 
           <Route path='/' exact>
-            <a href="https://oauth.vk.com/authorize?client_id=7565584&display=page&redirect_uri=http://localhost:3000/info&scope=photos&response_type=token&v=5.122&state=123456" className="btn btn-primary">
+            <a href="https://oauth.vk.com/authorize?client_id=7565584&display=page&redirect_uri=https://innowisetest.herokuapp.com/info&scope=photos&response_type=token&v=5.122&state=123456" className="btn btn-primary">
               Login
             </a>
           </Route>
